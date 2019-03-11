@@ -98,6 +98,9 @@ public class SortAndSearch {
         int arr[] = {3,1,2,4};
         insertSort(arr);
         System.out.println(Arrays.toString(arr));
+
+
+
     }
 
 
