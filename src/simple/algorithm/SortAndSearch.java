@@ -34,11 +34,13 @@ public class SortAndSearch {
     private int Partition(int[] arr, int low, int high) {
         int pivot = arr[low];
         while(low < high){
-            while(low < high && arr[high] >= pivot)
-                -- high;
+            while(low < high && arr[high] >= pivot) {
+                --high;
+            }
             arr[low] = arr[high];
-            while(low < high && arr[low] <= pivot)
-                ++ low;
+            while(low < high && arr[low] <= pivot) {
+                ++low;
+            }
             arr[high] =arr[low];
         }
         arr[low] = pivot;
@@ -75,4 +77,28 @@ public class SortAndSearch {
         }
         return -1;
     }
+
+    /**
+     * 插入排序
+     */
+    public static void insertSort(int arr[]){
+        for (int i = 1; i < arr.length; i++) {
+            int temp = arr[i];
+            int j = i;
+            while (j > 0 && temp < arr[j - 1]) {
+                arr[j] = arr[j - 1];
+                j--;
+            }
+            arr[j] = temp;
+        }
+    }
+
+    @Test
+    public void testInsert(){
+        int arr[] = {3,1,2,4};
+        insertSort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
+
 }
