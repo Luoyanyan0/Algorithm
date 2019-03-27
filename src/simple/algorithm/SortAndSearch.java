@@ -100,5 +100,4 @@ public class SortAndSearch {
         System.out.println(Arrays.toString(arr));
     }
 
-
 }
