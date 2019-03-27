@@ -8,7 +8,7 @@ import java.util.List;
  * @Date: 2019/3/10 10:38
  * @Description:输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
  */
-public class printListFromTailToHead {
+public class printListFromTailToHead_3 {
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         ArrayList<Integer> tailToHead = new ArrayList<>();
         while (listNode != null){

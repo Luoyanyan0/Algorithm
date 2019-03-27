@@ -3,7 +3,7 @@ package offer.niuke;
 /**
  * 输入一个链表，输出该链表中倒数第k个结点。
  */
-public class FindKthToTail {
+public class FindKthToTail_14 {
     /**
      * 设快慢指针。一个先走length - k 步，一个从头走起
      * 当快指针走到链表结尾的时候，慢指针指向的就是倒数的第k个节点

@@ -3,7 +3,7 @@ package offer.niuke;
 /**
  * 给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。
  */
-public class Power {
+public class Power_12 {
     /**
      * 主要是判断底数和指数的各种情况
      * @param base
