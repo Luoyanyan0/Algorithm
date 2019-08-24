@@ -16,6 +16,7 @@ public class TwoQueueToStack {
         System.out.println(pop());
         push(4);
         System.out.println(pop());
+        System.out.println(pop());
     }
 
     static LinkedList<Integer> queue1 = new LinkedList<>();
